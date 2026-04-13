@@ -1,7 +1,7 @@
 # Scene Graph Modification Based on Natural Language Commands
 
-## Descriptions
-This repo contains source code and pre-processed corpora for __"Scene Graph Modification Based on Natural Language Commands"__ (accepted to Findings of EMNLP 2020) ([paper](https://arxiv.org/abs/2010.02591))
+## Description
+This repo contains source code and pre-processed corpora for the paper __"Scene Graph Modification Based on Natural Language Commands"__ (accepted to Findings of EMNLP 2020) ([paper](https://arxiv.org/abs/2010.02591)).
 
 ## Demo
 We demonstrate four different operations one can execute on scene graphs:
@@ -29,7 +29,7 @@ Each dataset is partitioned into train/dev/test, with each split consisting of t
 * modification query: {split}_src_text.txt
 * target scene graph: {split}_tgt_graph.bin
 
-The datasets can be downloaded from [here](https://drive.google.com/file/d/1K2lo1Dt7GJskyUVR9x5LH-mZya28KcDY/view?usp=sharing)
+The datasets can be downloaded from [here](https://drive.google.com/file/d/1K2lo1Dt7GJskyUVR9x5LH-mZya28KcDY/view?usp=sharing) ([mirror](https://archive.org/details/scene_graph_modification_data)).
 
 ## Train a model
 The following code shows how we can train an early fusion (cross-attention) model for a given dataset
